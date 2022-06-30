@@ -1,42 +1,104 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #cebcca;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cebcca;
   text-align: center;
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-img {
+  width: 10vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  color: #3a2c60;
+  text-shadow: #3a2c60;
+  font-size: 40px;
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: solid #ffd7e5 8px;
+  border-style: dotted;
+  border-radius: 50px;
+  width: 80vw;
+  margin-left: 125px;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-img {
+  border-radius: 80px;
+  border: #3a2c60 solid 3px;
+  padding: 3px;
+  margin: 50px 0 20px 0;
+  background-color: #ffd7e5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fir-paragraph {
+  font-size: 30px;
+  color: #3a2c60;
+  margin-bottom: 20px;
 }
 
-button {
-  font-size: calc(10px + 2vmin);
+.sec-paragraph {
+  margin: 0 100px 20px 100px;
+  color: #3a2c60;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.icons-props {
+  width: 8vw;
+}
+
+.first-sub {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 50px 20px 50px;
+  padding: 50px;
+}
+
+.first-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.just-parag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3a2c60;
+  font-size: 22px;
+  text-align: justify;
+  margin-left: 50px;
+  text-indent: 60px;
+}
+
+.secn-sub {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px;
+  margin-right: 50px;
+}
+
+.secn-parag {
+  margin-right: 50px;
 }
