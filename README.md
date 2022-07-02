@@ -24,3 +24,12 @@ Precisávamos fazer componentes para guardar o código e através do props ou ch
 Para o meu diário consegui realizar tudo de forma tranquila, mas travei na hora de estilizar. Então, decidi ir em busca através de pesquisa e fiz a parte do CSS
 também por props. Abaixo segue um exemplo de como fiz o componente Image e deixei o atributo className com props e pude reutilizar em duas partes da interface com
 estilizações diferentes e conteúdos também. 
+
+```
+function Image(props) {
+    return (
+        <img className={props.imgclass} src={props.image}/>
+    )
+}
+
+export default Image
