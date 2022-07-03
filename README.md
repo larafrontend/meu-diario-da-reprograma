@@ -40,4 +40,4 @@ export default Image
 ## Resultado
 Abaixo dá pra conferir como ficou o projeto finalizado.
 
-![Diário_da_Reprograma_Trim_AdobeExpress](https://user-images.githubusercontent.com/67487460/177020151-8833c84a-fa84-457e-9f8f-3ff14199115e.gif)
+<img src="https://user-images.githubusercontent.com/67487460/177020151-8833c84a-fa84-457e-9f8f-3ff14199115e.gif" width="400" height="200" />
