@@ -3,6 +3,8 @@
 
 ## Introdução ao React  
 
+<img src="https://media3.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=6c09b952889e8bbdf7c34930d8f7358f43a5d58dd1fffdcf&rid=giphy.gif&ct=s" width="250" height="250">
+
 Oiê!!! Estamos na Semana 14 do Bootcamp "Todas em Tech" da **{Reprograma}**. Nossa profa da semana é a maravilhosa **Simara Conceição** que veio para nos trazer o
 conhecimento sobre **React**.
 
@@ -33,3 +35,9 @@ function Image(props) {
 }
 
 export default Image
+```
+
+## Resultado
+Abaixo dá pra conferir como ficou o projeto finalizado.
+
+![Diário_da_Reprograma_Trim_AdobeExpress](https://user-images.githubusercontent.com/67487460/177020151-8833c84a-fa84-457e-9f8f-3ff14199115e.gif)
